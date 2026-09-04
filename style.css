@@ -45,7 +45,7 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    background-image: url(fundo/pixel\ art.jfif);
+    background-image: url(fundo/grama.jfif);
     background-size: contain;
     background-position: center;
     flex-wrap: wrap;
