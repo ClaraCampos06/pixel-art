@@ -37,7 +37,7 @@ header h1{
     align-items:center;
     justify-content: center;
     font-size: 1.3em;
-    color: #3a0508;
+    color: #f0e1c6;
 }
 
 body{
@@ -45,8 +45,8 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    background-image: url(fundo/grama.jfif);
-    background-size: contain;
+    background-image: url(tela-2/mountain.gif);
+    background-size: cover;
     background-position: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -92,8 +92,13 @@ h1{
     font-size: 1em;
     height: 30px;
     width: 200px;
+    
     text-align:center;
 
+}
+
+#titulo{
+    text-shadow: 2px 2px 2px black;
 }
 .info{
     padding-left: 10px;
@@ -198,10 +203,18 @@ button{
     height: 30px;
 }
 
+a:hover{
+    cursor: pointer;
+    transition: .4s;
+    text-shadow: 0px 0px 3px white;
+    
+}
+
 button:hover{
     cursor: pointer;
-    width: 150px;
-    transition: .6s;
+    text-shadow: 0px 0px 3px white;
+    box-shadow: 0px 0px 3px white;
+
 }
 
 #lugar:hover{

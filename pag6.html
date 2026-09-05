@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pag6.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Press+Start+2P&display=swap');
+</style>
+    <title>Confirmação</title>
+</head>
+<body>
+    <div class="box box1">
+        <div class="h1">
+            <br>
+            <h1>Toda construção começa com uma escolha</h1>
+        </div>
+
+        <div class="p">
+            <p><br>Você desperta coisas boas em mim. <br> <br>Desperta vontade, atração... <br> <br>algo que nunca senti que precisaria viver, passou a fazer sentido quando imaginei uma vida com você.<br></p>
+        </div>
+
+        <div class="filha">
+            <a href="pag5.html">voltar</a>
+            <img id="fotoFilha" src="" alt="filha">
+            <a href="pag7.html">continuar</a>
+        </div>
+    </div>
+
+
+    <script>
+
+const filha = localStorage.getItem("filha");
+
+const fotoFilha = {
+    lia: "tela-3/filhos/bb1.png",
+    ji: "tela-3/filhos/bb2.png",
+    kay: "tela-3/filhos/bb3.png"
+};
+
+document.getElementById("fotoFilha").src = fotoFilha[filha];
+
+</script>
+
+</body>
+</html>

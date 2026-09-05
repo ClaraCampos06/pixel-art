@@ -7,10 +7,10 @@
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tiny5&family=VT323&display=swap');
     </style>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Escolher Personagem</title>
 </head>
 <body>
-    <header><h1>escolha um personagem</h1></header>
+    <header><h1 id="titulo">escolha um personagem</h1></header>
     <div class="card card-maria">
     
         <div class="img"><img id='nos' src="personagens/oi-removebg-preview.png"alt=""></div>
@@ -29,7 +29,7 @@
                     </div>
             
         </div>
-        <a id="lugar" href="pag2.html"><button>ESCOLHER</button></a>
+        <a id="lugar" href="pag2.html"  onclick="escolherPersonagem('clarets')"><button>ESCOLHER</button></a>
     </div>
     <div class="card card-nay">
         
@@ -53,8 +53,15 @@
             </div>
 
 
-            <a id="lugar" href="pag2.html"><button>ESCOLHER</button></a>
+            <a id="lugar" href="pag2.html" onclick="escolherPersonagem('nay')"><button >ESCOLHER</button></a>
         </div>
     </div>
+
+    <script>
+        function escolherPersonagem(personagem){
+            localStorage.setItem("personagem", personagem);
+        }
+
+    </script>
 </body>
 </html>
