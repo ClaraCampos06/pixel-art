@@ -18,13 +18,12 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 header{
     width: 100%;
     height: 8vh;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,8 +35,15 @@ header h1{
     display: flex;
     align-items:center;
     justify-content: center;
-    font-size: 1.3em;
     color: #f0e1c6;
+}
+
+.img{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 50%;
+    width: 35%;
 }
 
 body{
@@ -55,22 +61,20 @@ body{
 }
 .info ul{
     list-style: none;
-
 }
 
-
-
 li{
-    font-size: .6em;
+    font-size: .9em;
     font-family: var(--grossa);
     
 }
+
 #nay{
-    height: 22px;
     display: flex;
     align-items: end;
     justify-content: center;
 }
+
 .card{
     width: 48%;
     height: 90%;
@@ -78,7 +82,7 @@ li{
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: start;
     padding:0%;
     background-image: url(fundo/img.png) ;
     background-size: contain;
@@ -92,24 +96,37 @@ h1{
     font-size: 1em;
     height: 30px;
     width: 200px;
-    
     text-align:center;
 
 }
 
 #titulo{
+    font-size: 200%;
     text-shadow: 2px 2px 2px black;
 }
+
 .info{
-    padding-left: 10px;
+    height: 45.5%;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.info h1{
+    width: 100%;
+    color: var(--escuro);
+    font-size: 1.4em;
 }
 svg{
-    width: 15px;
+    width: 10%;
 
 }
 .icons{
-    width: 60px;
-    height: 55px;
+    width: 33%;
+    height: 100%;
     transition: .6s;
 }
 .icons:hover{
@@ -120,25 +137,25 @@ svg{
 }
 .icon{
     display: flex;
-    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 100%;
 
 }
 
 #nos{
-    width:73px;
-    height:170px;
-    margin-bottom: 10px;
-
+    height: 100%;
+    margin-bottom: 1%;
     transition: .6s;
-   
 }
 
 #nos:hover{
 
     transform: translate(-5px, -10px);
     transition: .6s;
-    width:77px;
-    height:180px;
+
 }
 
 
@@ -161,6 +178,7 @@ svg{
     background-repeat: no-repeat;
 }
 .icons4{
+    width: 39%;
     background-image: url(itens/nay-food.png);
     background-position: center;
     background-size: cover;
@@ -180,8 +198,8 @@ svg{
 }
 
 button{
-    width: 95px;
-    height: 30px;
+    width: 100%;
+    height: 100%;
     font-size: .5em;
     margin-top: 5px;
     background-color: transparent;
@@ -194,19 +212,33 @@ button{
     color: #fdce7e;
     text-decoration: none;
     transition: .6s;
+    
 
 }
 #lugar{
+    text-decoration: none;
+      width: 50%;
+    height: 16%;
+    font-size: .8em;
+    margin-top: 5px;
+    background-color: transparent;
+    box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.767);
+    border: 3px solid rgba(0, 0, 0, 0.63);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.76);
+    border-right: 3px solid rgba(0, 0, 0, 0.61);
+    border-top: 3px solid #fdce7e;
+    background-color: var(--escuro);
     color: #fdce7e;
     text-decoration: none;
-    width: 95px;
-    height: 30px;
+    transition: .6s;
 }
 
 a:hover{
     cursor: pointer;
     transition: .4s;
     text-shadow: 0px 0px 3px white;
+    width: 100%;
+
     
 }
 
@@ -214,6 +246,7 @@ button:hover{
     cursor: pointer;
     text-shadow: 0px 0px 3px white;
     box-shadow: 0px 0px 3px white;
+    width: 100%;
 
 }
 

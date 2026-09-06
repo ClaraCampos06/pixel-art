@@ -34,30 +34,28 @@ svg{
     width: 30%;
     height: 100vh;
     padding:10px;
-    padding-top: 10%;
+    padding-top:3%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content: start;
 }
 .txt{
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: start;
-
     width: 98%;
-    
-    height: 40vh;
+    height: 40%;
 }
 .txt p{
     font-family: var(--media);
     color: #f0e1c6;
-    font-size: 1.8em;
+    font-size: 2.5em;
     
 }
 .tela1 img{
-    width: 60vh;
+    width: 100%;
 
 }
 
@@ -65,7 +63,8 @@ svg{
    display: none;
 }
 .tela2{
-    width: 70%;
+    width: 80%;
+
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -74,19 +73,21 @@ svg{
 }
 
 .baby{
+        width:33%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding:10% 0%;
     background-image: url(fundo/img.png);
-    width:33%;
-    height: 100%;
+    background-position: center;
+
     
     
 }
 .baby img{
     width: 50%;
+    background-color: red;
     transition: .6s;
 }
 
@@ -119,19 +120,19 @@ svg{
 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .baby2{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .baby3{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 a{
     color: #fdce7e;
@@ -175,15 +176,9 @@ button:hover{
 
 }
 
-#voltar{
-    background-color: red;
-    width: 90px;
-    height: 20px;
-    font-size: .7em;
-}
-.btt1{
-    width: 90px;
-    height: 20px;
+.tela1 a{
+    width: 50%;
+    height: 8%;
     display: flex;
     align-items: center;
     justify-content: center;
