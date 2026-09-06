@@ -23,6 +23,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
+    cursor: grab;
     align-items: center;
     justify-content: center;
 }
