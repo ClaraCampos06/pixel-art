@@ -45,6 +45,7 @@ body{
 p{
 
     width: 98%;
+    color: var(--escuro);
     height: 80%;
     display: flex;
     justify-content: start;

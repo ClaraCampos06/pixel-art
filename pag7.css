@@ -43,6 +43,7 @@ body{
 .box p{
     font-family: var(--media);
     font-size: 1.8em;
+    color: var(--escuro);
     text-align: center;
 }
 
