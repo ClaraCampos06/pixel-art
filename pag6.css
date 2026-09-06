@@ -23,10 +23,106 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
+    cursor: grab;
     align-items: center;
     justify-content: center;
 }
 
+.box{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(tela-8/papel.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6% 16%;
+}
+.h1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: end;
+    text-align: center;
+    justify-content: end;
+    color: var(--escuro);
+    font-family: var(--fina);
+}
+.h1 h1{
+    font-size: 1.4em
+}
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    padding: 0% 5%;
+}
+
+.p p{
+
+    font-family: var(--media);
+    font-size: 1.8em;
+    text-align: center;
+    color: var(--escuro);
+}
+.filha{
+  
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+#nay{
+
+    height: 100%;
+    width: 14%;
+    margin-right: 2%;
+}
+#maria{
+    height: 100%;
+    width: 13%;
+    margin-left: 2%;
+
+}
+#maria:hover{
+    transform: translate(0px, -10px);
+    transition: .6s;
+}
+
+#nay:hover{
+    transform: translate(0px, -10px);
+    transition: .6s;
+}
+a{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .65em;
+    text-decoration: none;
+    background-color: transparent;
+    box-shadow: inset -2px -2px 10px rgba(0, 0, 0, 0.767);
+    border: 3px solid rgba(0, 0, 0, 0.63);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.76);
+    border-right: 3px solid rgba(0, 0, 0, 0.61);
+    border-top: 3px solid #fdce7e;
+    background-color: var(--escuro);
+    color: #fdce7e;
+}
+a:hover{
+    text-shadow: 0px 0px 3px white;
+    box-shadow: 0px 0px 3px white;
+}
+/*
 .box{
     background-image: url(itens/quadro.png);
     background-size: auto;
@@ -115,5 +211,5 @@ a:hover{
     text-shadow: 0px 0px 3px white;
     box-shadow: 0px 0px 3px white;
 }
-
+*/
 

@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: var(--grossa);
+    text-transform: uppercase;
+}
+
+:root {
+    --grossa: "Press Start 2P", system-ui;
+    --media: "Jersey 15", sans-serif;
+
+    --escuro: #3a0508;
+    --medio: #350204bd;
+    --claro: #f0e1c6;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("tela-2/mountain.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("tela-8/papel.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.escolhas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 25px;
+
+    width: 80%;
+}
+
+.card {
+    width: 220px;
+    min-height: 320px;
+
+    background-color: rgba(240, 225, 198, .6);
+
+    border: 4px solid var(--escuro);
+
+    box-shadow:
+        6px 6px 0 rgba(0, 0, 0, .45),
+        inset -3px -3px 0 rgba(0, 0, 0, .2);
+
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+
+/* =========================
+          FOTO
+========================= */
+
+.foto {
+    width: 170px;
+    height: 180px;
+
+    border: 4px solid var(--escuro);
+
+    overflow: hidden;
+
+    margin-bottom: 18px;
+
+    background-color: var(--medio);
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* =========================
+          TEXTO
+========================= */
+
+.card h2 {
+    font-size: .6em;
+
+    color: var(--escuro);
+
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-family: var(--media);
+
+    font-size: 1.5em;
+
+    color: var(--escuro);
+}
+
+
+/* =========================
+          HOVER
+========================= */
+
+.card {
+    transition: .2s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        8px 8px 0 rgba(0, 0, 0, .5),
+        0 0 8px rgba(240, 225, 198, .7);
+}

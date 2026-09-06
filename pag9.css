@@ -33,38 +33,50 @@ body{
     background-image: url(tela-8/papel.png);
         background-size: contain;
     background-position: center;
-
         background-repeat: no-repeat;
         padding: 7% 16%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: end;
+}
+
+.musica{
+    height: 30%;
+    
 }
 p{
-
-    width: 98%;
-    height: 80%;
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    align-items: center;
-    line-height: 2em;
     text-align: center;
-    font-size: 1.8em;
-    font-family: var(--media);
+    line-height: 1.6em;
+    font-size: 1.5em;
 }
 
+.box img {
+    opacity: 0;
+    width: 200px;
 
-.btt{
-    width: 100%;
-    height: 9%;
+}
+
+.btt2:hover ~ .img img {
+    opacity: 1;
+}
+.btt1{
     display: flex;
+    margin: .5%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
 
 }
-
+.btt2{
+    display: flex;
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
 a{
     width: 25%;
     height: 80%;
