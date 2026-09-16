@@ -77,11 +77,10 @@ height:37vh;
 }
 
 .animal{
-    width: 22%;
+    width: 17%;
     height: 100%;
     display: flex;
-    padding: 2% 4%;
-
+    padding: 2% 2.5%;
     flex-direction: column;
     align-items: center;
     justify-content: start;
@@ -92,16 +91,12 @@ height:37vh;
     padding-bottom: 2%;
 }
 
-.animal h1{
-    font-size: .7em;
-}
-
 .animal ul{
     display: flex;
     list-style: none;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: .7em;
+    font-size: .6em;
     width: 100%;
     height: 100%;
 }

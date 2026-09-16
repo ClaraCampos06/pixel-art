@@ -50,8 +50,8 @@ h2{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 5%;
-    padding-bottom: 3%;
+
+    padding: 4% 2%;
 }
 
 svg{
@@ -115,7 +115,6 @@ h1{
 .box ul{
     width: 80%;
    height: 50%;
- 
     list-style: none;
     font-size: 1em;
     display: flex;
@@ -129,7 +128,7 @@ h1{
    display: flex;
    align-items: center;
    justify-content: start;
-   padding-top: 3%;
+
 }
 .box2{
    
@@ -139,7 +138,7 @@ h1{
 }
 
 .box2 ul{
-    font-size: .8em;
+    font-size: .7em;
 }
 .box3{
     

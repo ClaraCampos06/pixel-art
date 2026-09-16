@@ -107,7 +107,7 @@ h1{
 
 .info{
     height: 45.5%;
-    width: 44%;
+    width: 39%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,7 +118,7 @@ h1{
 .info h1{
     width: 100%;
     color: var(--escuro);
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 svg{
     width: 10%;
